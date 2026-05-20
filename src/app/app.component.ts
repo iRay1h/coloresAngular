@@ -8,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'coloresAngular';
+
+  colorBoton: string = '';
+
+  cambiarColor(color: string) {
+
+    this.colorBoton = color
+
+  }
 }
